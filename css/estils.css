@@ -2,6 +2,11 @@ body {
 	font-family: "Century Gothic", "Lato", sans-serif;
 }
 
+.envasos {
+	margin: auto;
+ 	width: 50%;
+}
+
 .ball {
   position: absolute;
   border-radius: 100%;
