@@ -5,6 +5,8 @@ body {
 .envasos {
 	margin: auto;
  	width: 50%;
+	/*Amb lo de sobre es centra el contenidor, amb lo de baix el text*/
+	text-align: center;
 }
 
 .ball {
