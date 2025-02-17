@@ -8,6 +8,7 @@ body {
 	/*Amb lo de sobre es centra el contenidor, amb lo de baix el text*/
 	text-align: center;
 	/*I amb el següent el div verticalment*/
+	display: flex;
 	vertical-align: middle;
 }
 
