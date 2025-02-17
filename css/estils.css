@@ -12,6 +12,15 @@ body {
 	vertical-align: middle;
 }
 
+h1 {
+  font-size: 10em;
+}
+
+
+h3 {
+  font-size: 5em;
+}
+
 .ball {
   position: absolute;
   border-radius: 100%;
