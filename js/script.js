@@ -39,3 +39,5 @@ balls.forEach((el, i, ra) => {
     }
   );
 });
+
+// CREDITS animació background: Nash Vail (Codepen)
