@@ -18,6 +18,12 @@ h1 {
   font-size: 10em;
 }
 
+.fab {
+  font-size: 2em;
+  color: black;
+  margin: 30px;
+}
+
 
 h3 {
   font-size: 2em;
