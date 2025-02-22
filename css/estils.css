@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /* Perquè la versió mòbil es vegi centrada correctament (el títol no sigui massa gran) */
   .contenidor-centrat {
     display: flex;
     flex-direction: column;
@@ -7,9 +7,9 @@
     justify-content: center;
   }
   .contenidor-centrat h1 {
-    transform: scale(0.8); /* Ajusta el factor de escala segons el que necessitis */
+    transform: scale(0.8);
     transform-origin: center;
-    width: max-content; /* Evita que l'amplada es modifiqui de manera inesperada */
+    width: max-content;
   }
 }
 
@@ -32,23 +32,30 @@ h1 {
   font-size: 10em;
 }
 
+h3 {
+  font-size: 2em;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+  margin: 120px auto;
+  display: block;
+}
+
 .fab {
   font-size: 2em;
   color: black;
 }
 
 
-
-h3 {
-  font-size: 2em;
-}
-
-.ball {
+.ball { /* Pel fons */
   position: absolute;
   border-radius: 100%;
   opacity: 0.7;
 }
 
+/* TOT EL QUE VE A CONTINUACIÓ ÉS PEL CERCLE QUE CONTÉ ub.fisica.cat I ES POT PREVISUALITZAR FENT HOVER */
 .ub {
   position: relative;
   display: block;
@@ -138,11 +145,4 @@ h3 {
   left: 0;
   transition: 0.3s;
   z-index: -1;
-}
-
-.github{
-  display: flex;
-  justify-content: center;
-  margin: 120px auto;
-  display: block;
 }
