@@ -55,5 +55,4 @@ h3 {
   opacity: 0.7;
 }
 
-/*Pel cercle que conté 'ub.fisica.cat' */
-@import url("cercle-ub.css");
+/* Els estils pel cercle que conté 'ub.fisica.cat' es troben al fitxer "cerlce-ub.css" */
