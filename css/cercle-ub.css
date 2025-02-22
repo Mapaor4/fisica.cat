@@ -1,6 +1,7 @@
 /* TOT EL QUE VE A CONTINUACIÓ ÉS PEL CERCLE QUE CONTÉ ub.fisica.cat I ES POT PREVISUALITZAR FENT HOVER */
 /* Crèdit de la idea CSS de Jeremie Boulay (Codepen): https://codepen.io/Jeremboo/pen/WwbjvL */
 .ub {
+  background-color: black;
   position: relative;
   display: block;
   margin: 130px auto;
