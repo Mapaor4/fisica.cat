@@ -7,8 +7,9 @@
     justify-content: center;
   }
   .contenidor-centrat h1 {
-    transform: scale(0.6); /* Ajusta el factor de escala segons el que necessitis */
+    transform: scale(0.8); /* Ajusta el factor de escala segons el que necessitis */
     transform-origin: center;
+    width: max-content; /* Evita que l'amplada es modifiqui de manera inesperada */
   }
 }
 
