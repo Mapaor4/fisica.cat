@@ -60,11 +60,11 @@ h3 {
   border: 80px solid #fff4e6;
   opacity: 0;
 }
-.ub:hover .ub-name {
+.ub:hover .preview-nom {
   left: 200%;
   opacity: 1;
 }
-.ub:hover .ub-name:before {
+.ub:hover .preview-nom:before {
   width: 100%;
 }
 .ub-hail {
