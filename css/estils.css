@@ -1,9 +1,11 @@
 
-/*@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");*/
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
 
 body {
 	font-family: "Century Gothic", "Lato", sans-serif;
+  text-align: center;
 }
+
 
 .contenidor-centrat {
 	margin: auto;
@@ -21,8 +23,8 @@ h1 {
 .fab {
   font-size: 2em;
   color: black;
-  margin: 30px;
 }
+
 
 
 h3 {
@@ -36,14 +38,12 @@ h3 {
 }
 
 .ub {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  display: block;
+  margin: 130px auto;
   width: 20px;
   height: 20px;
   cursor: pointer;
-  margin: 20px auto;
 }
 .ub:hover .imgMasked {
   clip-path: circle(100px at center);
@@ -103,7 +103,7 @@ h3 {
   transition: 0.5s;
   pointer-events: none;
 }
-.ub {
+.preview-nom {
   position: absolute;
   max-width: 600px;
   min-width: 150px;
@@ -116,7 +116,7 @@ h3 {
   z-index: 2;
   opacity: 0;
 }
-.ub:before {
+.preview-nom:before {
   content: '';
   width: 0;
   height: 100%;
@@ -128,3 +128,9 @@ h3 {
   z-index: -1;
 }
 
+.github{
+  display: flex;
+  justify-content: center;
+  margin: 120px auto;
+  display: block;
+}
