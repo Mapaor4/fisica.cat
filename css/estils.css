@@ -1,6 +1,11 @@
 
-/* @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"); */
 @media screen and (max-width: 768px) {
+  .contenidor-centrat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .contenidor-centrat h1 {
     transform: scale(0.6); /* Ajusta el factor de escala segons el que necessitis */
     transform-origin: center;
